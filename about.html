@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn about LIGOZZA — modern clothing, thoughtful design and everyday confidence.">
+  <title>About Us — LIGOZZA</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .about-wrap{max-width:1200px;margin:auto;padding:34px 24px 10px}
+    .about-hero{min-height:440px;border-radius:22px;position:relative;overflow:hidden;display:flex;align-items:center;padding:clamp(28px,6vw,70px);color:#fff}
+    .about-hero-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:0}
+    .about-hero::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.08));z-index:1}
+    .about-hero-content{position:relative;z-index:2}
+    .about-hero .eyebrow,.eyebrow{font-size:11px;letter-spacing:3px;font-weight:800}
+    .about-hero h1{font-size:clamp(44px,7vw,82px);line-height:.98;letter-spacing:2px;margin:18px 0;max-width:700px}
+    .about-hero p{max-width:480px;line-height:1.8;color:#eee;font-size:16px}
+    .about-section{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;padding:76px 0}
+    .about-section h2{font-size:clamp(30px,4vw,46px);letter-spacing:-1.5px;line-height:1.08;margin:12px 0 18px}
+    .about-section p{color:#5f6368;line-height:1.9;font-size:15px}
+    .about-photo{width:100%;height:440px;object-fit:cover;border-radius:18px;background:#f2f2f0}
+    .about-values{background:#f6f6f4;border-radius:22px;padding:38px;margin:8px 0 60px}
+    .values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:26px}
+    .value-card{background:#fff;border-radius:15px;padding:24px;min-height:170px}
+    .value-card .num{font-size:12px;letter-spacing:2px;color:#777;font-weight:800}
+    .value-card h3{margin:15px 0 8px;font-size:19px}
+    .value-card p{font-size:14px;line-height:1.7;color:#696d72;margin:0}
+    .about-cta{background:#0b0d0f;color:#fff;border-radius:20px;padding:40px;display:flex;justify-content:space-between;align-items:center;gap:25px;margin-bottom:10px}
+    .about-cta h2{font-size:clamp(26px,4vw,38px);margin:0 0 8px}.about-cta p{color:#bbb;margin:0;line-height:1.7}
+    .about-cta .btn{white-space:nowrap}
+    .about-footer{margin-top:54px}
+    @media(max-width:760px){.about-wrap{padding:20px 14px 0}.about-hero{min-height:400px;border-radius:15px}.about-section{grid-template-columns:1fr;gap:24px;padding:48px 0}.about-photo{height:330px}.values-grid{grid-template-columns:1fr}.about-values{padding:22px}.about-cta{align-items:flex-start;flex-direction:column;padding:28px}}
+  </style>
+</head>
+<body>
+<header class="topbar">
+  <button class="hamb" aria-label="Open menu">☰</button>
+  <a class="brand" href="index.html">LIGOZZA</a>
+  <nav class="nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="category.html">Category</a><a href="about.html" aria-current="page">About Us</a></nav>
+  <div class="icons" aria-hidden="true">⌕　◉</div>
+</header>
+<aside class="drawer" aria-label="Quick menu"><button class="close" aria-label="Close menu">×</button><h2>LIGOZZA</h2><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="category.html">Category</a><a href="about.html">About Us</a><small>CATEGORIES</small><a href="men.html">Men</a><a href="women.html">Women</a><a href="accessories.html">Accessories</a><a href="new-arrivals.html">New Arrivals</a></aside>
+<main class="about-wrap">
+  <section class="about-hero">
+    <img class="about-hero-image" src="assets/1790014323501.png" alt="LIGOZZA fashion collection hero image">
+    <div class="about-hero-content"><div class="eyebrow">OUR STORY · LIGOZZA</div><h1>STYLE THAT<br>FEELS LIKE YOU.</h1><p>We believe what you wear should feel natural, look considered, and help you show up as yourself — every single day.</p><a class="btn light" href="shop.html">Explore the collection&nbsp; →</a></div>
+  </section>
+  <section class="about-section">
+    <div><div class="eyebrow">WHO WE ARE</div><h2>Made for everyday confidence.</h2><p>LIGOZZA is a clothing brand built around modern style and the little details that make an outfit feel right. Our goal is simple: bring together clean looks, versatile pieces and an easy shopping experience.</p><p>From everyday essentials to fresh new looks, we want you to find pieces that fit your style and work with the way you live. Wear them your way. Make them yours.</p></div>
+    <img class="about-photo" src="assets/Ligozza Grit-Fueled Sprint.png" alt="Modern everyday clothing style">
+  </section>
+  <section class="about-values">
+    <div class="eyebrow">WHAT MATTERS TO US</div><h2 style="font-size:clamp(28px,4vw,40px);margin:12px 0 0">The LIGOZZA approach.</h2>
+    <div class="values-grid">
+      <article class="value-card"><div class="num">01 / STYLE</div><h3>Modern by design</h3><p>Clean, versatile styles that are easy to make your own and wear in different ways.</p></article>
+      <article class="value-card"><div class="num">02 / YOU</div><h3>Confidence first</h3><p>Clothing should help you feel comfortable, confident and true to your own personality.</p></article>
+      <article class="value-card"><div class="num">03 / EXPERIENCE</div><h3>Easy to explore</h3><p>A straightforward way to discover collections, find your favourites and shop with confidence.</p></article>
+    </div>
+  </section>
+  <section class="about-section">
+    <img class="about-photo" src="assets/Ligozza_ Wear Your Drive.png" alt="Contemporary fashion collection">
+    <div><div class="eyebrow">OUR PROMISE</div><h2>Your style. Your story.</h2><p>There is no single way to dress well. We are here to help you explore your style, try something new and build a wardrobe that feels like you.</p><p>Thank you for being part of the LIGOZZA journey. Every visit and every order helps our brand keep moving forward.</p></div>
+  </section>
+  <section class="about-cta"><div><h2>Find your next favourite.</h2><p>Explore the LIGOZZA collection and wear your story.</p></div><a class="btn light" href="shop.html">Shop LIGOZZA&nbsp; →</a></section>
+</main>
+<footer class="about-footer"><div class="foot"><div><div class="brand">LIGOZZA</div><p>Wear your story.</p></div><div><b>Explore</b><p>Men · Women · Accessories · New Arrivals</p></div><div><b>About</b><p>Modern clothing for your everyday style.</p></div></div><div style="max-width:1200px;margin:24px auto 0;font-size:12px;color:#777">© 2026 LIGOZZA. All rights reserved.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
