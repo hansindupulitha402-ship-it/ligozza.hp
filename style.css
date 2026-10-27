@@ -13,9 +13,6 @@ footer{margin-top:70px;padding:50px 24px;background:#0b0d0f;color:#aaa}footer .b
 @media(max-width:520px){.topbar{padding:0 14px}.container{padding:28px 14px}.grid{gap:10px}.cat-grid{gap:10px}.cat{height:190px}.section-title h2{font-size:24px}.hero{border-radius:14px}.card{border-radius:12px}.pagehead h1{font-size:36px}}
 .product-gallery{display:grid;grid-template-columns:74px 1fr;gap:14px;align-items:start}.thumbs{display:flex;flex-direction:column;gap:10px;max-height:620px;overflow:auto}.thumb{padding:0;border:1px solid var(--line);background:#fff;border-radius:10px;overflow:hidden;cursor:pointer}.thumb.active{border:2px solid var(--ink)}.thumb img{display:block;width:70px;height:70px;object-fit:cover}.chip{background:#fff;cursor:pointer}.chip.selected{background:var(--ink);color:#fff;border-color:var(--ink)}.size-editor{display:flex;gap:10px;flex-wrap:wrap}.size-editor label{border:1px solid var(--line);border-radius:10px;padding:10px 13px;background:#fff;cursor:pointer}.size-editor input{accent-color:#0b0d0f;margin-right:6px}.gallery-admin{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:12px}.gallery-admin-item{border:1px solid var(--line);border-radius:12px;padding:8px;display:flex;flex-direction:column;gap:7px}.gallery-admin-item img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:8px}.gallery-admin-item span{font-size:12px;font-weight:700}.remove-img{border:0;background:#f2f2f0;border-radius:8px;padding:7px;cursor:pointer}.adminitem .muted{line-height:1.5}@media(max-width:850px){.product-gallery{grid-template-columns:1fr}.thumbs{order:2;flex-direction:row;max-height:none;overflow-x:auto}.thumb img{width:62px;height:62px}}
 
-
-
-
 /* Join With Us email registration */
 .join-us {
     max-width: 1200px;
